@@ -7,9 +7,9 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-CLIENT_ID = os.environ.get("CLIENT_ID")
-CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
-TENANT_ID = os.environ.get("TENANT_ID")
+CLIENT_ID = 'cfa7bf68-e748-4b44-a92c-9c83bced3e18'
+CLIENT_SECRET = 'zPi8Q~4CNlyLcL1oUXYHJMTICiyfu.GyiEetcdBd'
+TENANT_ID = '816c33bb-9387-4902-a52f-47a6b07c71e3'
 
 
 def get_token():
